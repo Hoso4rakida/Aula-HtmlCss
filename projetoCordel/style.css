@@ -81,3 +81,18 @@ a:hover{
     line-height: 1.5em;
  }
 
+.image{
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.548);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ section#img1{
+     background-image: url('images/background001.jpg');
+ }
+
+ section#img2{
+     background-image: url('images/background002.jpg');
+ }
+
