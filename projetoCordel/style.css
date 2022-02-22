@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+/*/////////////////////////////////////*/
+:root {
+    --font1: Verdana, Arial, Helvetica, sans-serif;
+    --font2: 'Sriracha', cursive;
+    --font3: 'Passion One', cursive;
+}
+/*/////////////////////////////////////*/
 *{
     padding: 0;
     margin: 0;
 }
 /*/////////////////////////////////////*/
  html, body{
-     min-width: 100vh;
+     min-width: 100vw;
      background-color: darkgray;
+     font-family: var(--font1);
  }
 /*/////////////////////////////////////*/
  header{
@@ -17,12 +28,16 @@
  }
 /*/////////////////////////////////////*/
  header > h1{
-     padding-top: 50px;
-     font-variant: small-caps;
+    font-family: var(--font3);
+    font-weight: normal;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
  }
 /*/////////////////////////////////////*/
  header > p {
      padding-bottom: 50px;
+     
  }
 /*/////////////////////////////////////*/
 a {
@@ -36,27 +51,33 @@ a:hover{
  }
 /*/////////////////////////////////////*/
  footer {
-     background-color: black;
-     color: white;
-     text-align: center;
-     padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
  }
+ /*/////////////////////////////////////*/
  .normal {
-     background-color:white;
+    background-color:white;
  }
+ /*/////////////////////////////////////*/
  section.image > p{
-     width: 400px;
-     color: white;
-     background-color: rgba(0, 0, 0, 0.555);
+    margin-left: 10px;
+    display: inline-block;
+    padding: 7px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
  }
-
+/*/////////////////////////////////////*/
  section{
-     padding-top: 10vh;
-     padding-bottom: 10vh;
+    font-family: var(--font2);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3.5vw;
  }
-
+/*/////////////////////////////////////*/
  main p{
-     padding-left: 30px;
-     line-height: 1.5em;
+    padding-left: 30px;
+    line-height: 1.5em;
  }
 
