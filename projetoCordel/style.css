@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/*/////////////////////////////////////*/
+ html, body{
+     min-width: 100vh;
+     background-color: darkgray;
+ }
+/*/////////////////////////////////////*/
+ header{
+    background-color:black;
+    text-align: center;
+    color: white;     
+ }
+/*/////////////////////////////////////*/
+ header > h1{
+     padding-top: 50px;
+     font-variant: small-caps;
+ }
+/*/////////////////////////////////////*/
+ header > p {
+     padding-bottom: 50px;
+ }
+/*/////////////////////////////////////*/
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+/*/////////////////////////////////////*/
+a:hover{
+     text-decoration: underline;
+ }
+/*/////////////////////////////////////*/
+ footer {
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px;
+ }
+ .normal {
+     background-color:white;
+ }
+ section.image > p{
+     width: 400px;
+     color: white;
+     background-color: rgba(0, 0, 0, 0.555);
+ }
+
+ section{
+     padding-top: 10vh;
+     padding-bottom: 10vh;
+ }
+
+ main p{
+     padding-left: 30px;
+     line-height: 1.5em;
+ }
+
